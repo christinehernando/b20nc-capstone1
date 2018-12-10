@@ -4,10 +4,11 @@
 
 }
 
+/*Landing Page Styling*/
 
 #landing {
 	background: url("../images/landp.jpg");
-	height:1000px;
+	height:680px;
 	
 }
 
@@ -21,19 +22,42 @@
 
 }
 
+.message {
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+
+/*Navbar*/
+
+#logo {
+	font-size: 30px;
+}
+
 .home-button {
 	margin-top: 10px;
 }
 
 
 .c-photo {
-	width: 100%;
+	width: 80%;
 	height: auto;
 }
 
 .nav-item {
-	float:right;
-	float: right;
+	width: 80%;
+	height: auto;
+}
+
+/*Contact Us*/
+
+
+#submit-contact {
+	margin-bottom: 20px;
+}
+
+textarea {
+	resize: none;
 }
 
 

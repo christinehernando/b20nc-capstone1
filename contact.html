@@ -34,14 +34,14 @@
 		
 		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 			<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-				<li class="nav-item active">
-					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				<li class="nav-item ">
+					<a class="nav-link" href="index.html">Home </a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="about.html">About</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="contact.html">Contact</a>
+				<li class="nav-item active">
+					<a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="gallery.html">Gallery</a>
@@ -52,9 +52,10 @@
 	</nav> <!-- end of navbar -->
 
 	<main>
-		<h1 class="text-center">Contact Us</h1>
+		<h1 class="text-center" id="contact-title">Contact Us</h1>
 		<div class="row">
-			<div class="col-lg-6 col-sm-12">
+			<div class="col-lg-1 "></div>
+			<div class="col-lg-5 col-sm-10 form-items">
 				<form>
 					<div class="form-group">
 						<input type="text" class="form-control" id="username" placeholder="Username">
@@ -74,36 +75,42 @@
 					</div>
 				</form>		
 			</div>
-			<div class="col-lg-6 col-sm-12 container-fluid text-center">
+			<div class="col-lg-5 col-sm-10 container-fluid text-center form-items">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.7357174194426!2d121.020770714388!3d14.557099982044987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c905c953e8df%3A0xd3d03ade4df31dab!2sAyala+Triangle+Gardens!5e0!3m2!1sen!2sph!4v1544445982132" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 			</div>
+			<div class="col-lg-1 "></div>
 		</div>
 	</main>
 
-	<div id="footer" class="row container-fluid bg-dark clear">
-		<p class="text-white text-center container-fluid"> Copyright 2018</p>
-		<div class="social-container container-fluid text-center">
-			<a href="https://www.facebook.com/" class="social-media-icons">	
-				<i class="fab fa-facebook-square "></i>
-			</a>
-			<a href="https://twitter.com/?lang=en" class="social-media-icons" >
-				<i class="fab fa-twitter-square social-media-icons"></i>
-			</a>
-			<a href="https://www.google.com/gmail/" class="social-media-icons" >
-				<i class="fas fa-envelope social-media-icons"></i>
-			</a>
-			<a href="https://github.com/" class="social-media-icons">
-				<i class="fab fa-github-square social-media-icons"></i>
-			</a>
-		</div>
-		<!-- <div class="container-fluid text-center">
-			<a href="#top" class="social-media-icons">
-				<i class="fas fa-arrow-circle-up"></i>
-			</a>
-		</div> -->
-	</div> <!-- end of footer section -->
-
+	<nav class="navbar navbar-expand-lg navbar-light bg-dark" id="footer"> <!-- Footer  -->
+			<p class="text-white text-center copyright"> Copyright 2018</p>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-share-alt social-media-icons"></i>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+					<li class="nav-item text-center container-fluid">
+						<a href="https://www.facebook.com/" class="social-media-icons">	
+							<i class="fab fa-facebook-square social-media-icons "></i>
+						</a>
+					</li>
+					<li class="nav-item text-center container-fluid">
+						<a href="https://twitter.com/?lang=en" class="social-media-icons" >
+							<i class="fab fa-twitter-square social-media-icons"></i>
+						</a>
+					</li>
+					
+					<li class="nav-item text-center container-fluid" >
+						<a href="https://github.com/" class="social-media-icons">
+							<i class="fab fa-github-square social-media-icons"></i>
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+		</nav> <!-- end of footer -->
 
 
 

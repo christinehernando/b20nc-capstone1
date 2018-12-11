@@ -37,8 +37,8 @@
 		
 		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 			<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-				<li class="nav-item active">
-					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				<li class="nav-item ">
+					<a class="nav-link" href="home.html">Home </a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="about.html">About</a>
@@ -47,7 +47,7 @@
 					<a class="nav-link" href="contact.html">Contact</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="gallery.html">Gallery</a>
+					<a class="nav-link active" href="gallery.html">Gallery<span class="sr-only">(current)</span> </a>
 				</li>
 				
 			</ul>
@@ -56,36 +56,7 @@
 
 
 	<main>
-		<h1 class="text-center">Gallery</h1>
-		<div class="row">
-			<div class="row">
-				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-					Launch demo modal
-				</button>
-
-				<!-- Modal -->
-				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-					<div class="modal-dialog" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-									<span aria-hidden="true">&times;</span>
-								</button>
-							</div>
-							<div class="modal-body">
-								...
-							</div>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-								<button type="button" class="btn btn-primary">Save changes</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		<h1 class="text-center" id="gallery-title">Gallery</h1>
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-12">
 				<img src="assets/images/feature.jpeg" class="rounded img-fluid card-img-top img-thumbnail" data-toggle="modal" data-target="#image1Modal">
@@ -128,29 +99,35 @@
 
 </main>
 
-<div id="footer" class="row container-fluid bg-dark clear"> <!-- Footer -->
-	<p class="text-white text-center container-fluid"> Copyright 2018</p>
-	<div class="social-container container-fluid text-center">
-		<a href="https://www.facebook.com/" class="social-media-icons">	
-			<i class="fab fa-facebook-square "></i>
-		</a>
-		<a href="https://twitter.com/?lang=en" class="social-media-icons" >
-			<i class="fab fa-twitter-square social-media-icons"></i>
-		</a>
-		<a href="https://www.google.com/gmail/" class="social-media-icons" >
-			<i class="fas fa-envelope social-media-icons"></i>
-		</a>
-		<a href="https://github.com/" class="social-media-icons">
-			<i class="fab fa-github-square social-media-icons"></i>
-		</a>
-	</div>
-	<div class="container-fluid text-center">
-		<a href="#top" class="social-media-icons">
-			<i class="fas fa-arrow-circle-up"></i>
-		</a>
-	</div>
-</div> <!-- end of footer section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-dark" id="footer"> <!-- Footer  -->
+			<p class="text-white text-center copyright"> Copyright 2018</p>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-share-alt social-media-icons"></i>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+					<li class="nav-item text-center container-fluid">
+						<a href="https://www.facebook.com/" class="social-media-icons">	
+							<i class="fab fa-facebook-square social-media-icons "></i>
+						</a>
+					</li>
+					<li class="nav-item text-center container-fluid">
+						<a href="https://twitter.com/?lang=en" class="social-media-icons" >
+							<i class="fab fa-twitter-square social-media-icons"></i>
+						</a>
+					</li>
+					
+					<li class="nav-item text-center container-fluid" >
+						<a href="https://github.com/" class="social-media-icons">
+							<i class="fab fa-github-square social-media-icons"></i>
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+		</nav> <!-- end of footer -->
 
 
-</body>
-</html>
+	</body>
+	</html>

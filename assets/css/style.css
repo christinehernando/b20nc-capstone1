@@ -2,8 +2,8 @@
 	font-family: 'Source Sans Pro', sans-serif;
 	border: solid 2px black;
 
-}
-*/
+}*/
+
 /*Landing Page Styling*/
 
 #landing {
@@ -55,6 +55,10 @@
 
 #gallery-nav {
 	padding-right: 50px;
+}
+
+div.modal-body {
+	align-items: center;
 }
 
 
@@ -166,12 +170,33 @@ textarea {
 
 #gallery-title {
 	margin: 50px auto;
+	margin-bottom: 20px;
 }
 
 .modal-full {
 	min-width: 100%;
+	margin: 0 auto;
 }
 
+img.picture-center {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+
+.gallery-sm-icon {
+	font-size: 15px;
+	color: grey;
+} 
+
+.gallery-subscript {
+	color: rgb(160,160,160);
+	font-size: 15px;
+}
+
+a.gallery-link {
+	color: rgb(160,160,160);
+}
 
 
 /*tablet*/
@@ -184,7 +209,9 @@ textarea {
 	overflow: hidden;
 
 }
+
 }
+
 
 
 

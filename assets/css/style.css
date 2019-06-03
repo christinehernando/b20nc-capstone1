@@ -4,6 +4,54 @@
 
 }*/
 
+/*Sticky Footer*/
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
+
+/*Across Pages*/
+
+.brand-logo-font {	
+	font-family: 'Crimson Text', serif;
+	text-transform: uppercase;
+}
+
+.text-20 {
+	font-size: 20px;
+}
+
+.text-30 {
+	font-size: 30px;
+}
+
+.text-40 {
+	font-size: 40px;
+}
+
+.padding-left-40 {
+	padding-left: 40px;
+}
+
+.wide-letter-spacing {
+	letter-spacing: 0.3em;
+}
+
+.bg-color-black {
+	background: #040000;
+}
+
 /*Landing Page Styling*/
 
 #landing {
@@ -22,10 +70,6 @@
 
 }
 
-.brand-logo {
-	font-size: 60px;
-	font-family: 'Crimson Text', serif;
-}
 
 #logo-landing {
 	font-size: 55px;
@@ -47,19 +91,7 @@
 
 /*Navbar*/
 
-#logo {
-	font-size: 30px;
-	padding-left: 40px;
-}
 
-.text-30 {
-	font-size: 20px;
-}
-
-.wide-letter-spacing {
-	letter-spacing: 0.3em;
-
-}
 
 .home-button {
 	border: none;
